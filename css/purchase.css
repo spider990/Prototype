@@ -1,0 +1,115 @@
+
+body {
+    background-color: rgb(24, 23, 23);
+    
+}
+
+.svglogo svg{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+form {
+   display: flex; 
+   flex-direction: column;
+}
+
+form h2 {
+    color: white;
+    padding: 12px ;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+
+form div label {
+    color: white;
+    font-size: 24px
+}
+
+form div input {
+    padding: 10px;
+    width: 95%;
+    margin: 6px;
+    color: rgb(139, 139, 139);
+    background: transparent;
+    border: 2px solid #ff007a;
+    border-radius: 7px;
+}
+
+form div button {
+    border: none;
+    text-decoration: none;
+    padding: 12px;
+    margin: 12px;
+    background-color: #ff007a;
+    color: white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+form div button:hover {
+    animation-name: spy;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes spy {
+    0% {
+        background-color: #ff007a;
+        color: white;
+    }
+    100% {
+        background-color: transparent;
+
+        color: #ff007a;
+    }
+}
+
+form  .bir {
+    width: 40%;
+}
+
+.cartlogo {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    float: right;
+}
+
+.cartlogo svg {
+    height: 120px;
+    width: 200px;
+}
+
+.btn {
+    border: none;
+    text-decoration: none;
+    padding: 12px;
+    margin: 12px;
+    background-color: #ff007a;
+    color: white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.btn:hover {
+    animation-name: spy;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes spy {
+    0% {
+        background-color: #ff007a;
+        color: white;
+    }
+    100% {
+        background-color: transparent;
+
+        color: #ff007a;
+    }
+}

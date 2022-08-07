@@ -1,0 +1,30 @@
+
+
+.test {
+    display: flex;
+    justify-content: center;
+    width: 100% auto;
+    height: 500px;
+    background-image: url("https://images.pexels.com/photos/859265/pexels-photo-859265.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.test-card {
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.test h1 {
+    font-family: cursive;
+    font-size: 40px;
+}
+
+.arr {
+    height: 10px;
+    width: 100% auto;
+    background-color: #ff007a;
+}
+
+.cards {
+    margin: 20px;
+}

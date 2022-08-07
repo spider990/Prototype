@@ -1,0 +1,45 @@
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo svg {
+    margin: 40px;
+    height: 300px;
+    width: 300px;
+}
+
+.arr {
+    background-color: #ff007a;
+    color: #ff007a;
+}
+
+.arr2 {
+    background-color: #ff007a;
+    color: #ff007a;
+    height: 20px;
+
+}
+
+.userlogo {
+   display: flex;
+   justify-content: center;
+}
+
+.btn {
+    height: 40px;
+    width: 120px;
+    background-color: #ff007a;
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+    padding: 12px 10px;
+    margin: 20px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #ff007a;
+    transition: .5s ease-in-out ;
+}
+
